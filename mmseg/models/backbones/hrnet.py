@@ -3,7 +3,7 @@ import warnings
 
 import torch.nn as nn
 from mmcv.cnn import build_conv_layer, build_norm_layer
-from mmcv.runner import BaseModule, ModuleList, Sequential
+from mmengine.runner import BaseModule, ModuleList, Sequential
 from mmcv.utils.parrots_wrapper import _BatchNorm
 
 from mmseg.ops import Upsample, resize

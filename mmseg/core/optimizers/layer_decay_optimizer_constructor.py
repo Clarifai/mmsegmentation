@@ -2,7 +2,7 @@
 import json
 import warnings
 
-from mmcv.runner import DefaultOptimizerConstructor, get_dist_info
+from mmengine.runner import DefaultOptimizerConstructor, get_dist_info
 
 from mmseg.utils import get_root_logger
 from ..builder import OPTIMIZER_BUILDERS

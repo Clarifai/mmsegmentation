@@ -2,7 +2,7 @@
 import pytest
 import torch
 import torch.nn as nn
-from mmcv.runner import DefaultOptimizerConstructor
+from mmengine.runner import DefaultOptimizerConstructor
 
 from mmseg.core.builder import (OPTIMIZER_BUILDERS, build_optimizer,
                                 build_optimizer_constructor)

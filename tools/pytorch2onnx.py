@@ -11,7 +11,7 @@ import torch._C
 import torch.serialization
 from mmcv import DictAction
 from mmcv.onnx import register_extra_symbolics
-from mmcv.runner import load_checkpoint
+from mmengine.runner import load_checkpoint
 from torch import nn
 
 from mmseg.apis import show_result_pyplot

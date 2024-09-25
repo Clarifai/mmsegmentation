@@ -10,7 +10,7 @@ import mmcv
 import numpy as np
 import torch
 from mmcv.parallel import MMDataParallel
-from mmcv.runner import get_dist_info
+from mmengine.runner import get_dist_info
 from mmcv.utils import DictAction
 
 from mmseg.apis import single_gpu_test

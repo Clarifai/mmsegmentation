@@ -4,7 +4,7 @@ import math
 import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule, Linear, build_activation_layer
-from mmcv.runner import BaseModule
+from mmengine.runner import BaseModule
 
 from mmseg.ops import resize
 from ..builder import HEADS

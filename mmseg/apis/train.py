@@ -7,7 +7,7 @@ import numpy as np
 import torch
 import torch.distributed as dist
 from mmcv.parallel import MMDataParallel, MMDistributedDataParallel
-from mmcv.runner import (HOOKS, DistSamplerSeedHook, EpochBasedRunner,
+from mmengine.runner import (HOOKS, DistSamplerSeedHook, EpochBasedRunner,
                          build_runner, get_dist_info)
 from mmcv.utils import build_from_cfg
 

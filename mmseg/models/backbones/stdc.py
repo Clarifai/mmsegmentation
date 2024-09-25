@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from mmcv.cnn import ConvModule
-from mmcv.runner.base_module import BaseModule, ModuleList, Sequential
+from mmengine.runner.base_module import BaseModule, ModuleList, Sequential
 
 from mmseg.ops import resize
 from ..builder import BACKBONES, build_backbone

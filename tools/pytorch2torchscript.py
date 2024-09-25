@@ -6,7 +6,7 @@ import numpy as np
 import torch
 import torch._C
 import torch.serialization
-from mmcv.runner import load_checkpoint
+from mmengine.runner import load_checkpoint
 from torch import nn
 
 from mmseg.models import build_segmentor

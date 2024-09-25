@@ -11,7 +11,7 @@ from mmcv.cnn import build_norm_layer
 from mmcv.cnn.bricks.transformer import FFN, build_dropout
 from mmcv.cnn.utils.weight_init import (constant_init, trunc_normal_,
                                         trunc_normal_init)
-from mmcv.runner import (BaseModule, CheckpointLoader, ModuleList,
+from mmengine.runner import (BaseModule, CheckpointLoader, ModuleList,
                          load_state_dict)
 from mmcv.utils import to_2tuple
 

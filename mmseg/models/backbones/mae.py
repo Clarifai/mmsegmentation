@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 from mmcv.cnn.utils.weight_init import (constant_init, kaiming_init,
                                         trunc_normal_)
-from mmcv.runner import ModuleList, _load_checkpoint
+from mmengine.runner import ModuleList, _load_checkpoint
 from torch.nn.modules.batchnorm import _BatchNorm
 
 from mmseg.utils import get_root_logger

@@ -2,7 +2,7 @@
 import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule, DepthwiseSeparableConvModule
-from mmcv.runner import BaseModule
+from mmengine.runner import BaseModule
 
 from mmseg.ops import resize
 from ..builder import NECKS

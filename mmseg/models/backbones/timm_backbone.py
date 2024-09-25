@@ -5,7 +5,7 @@ except ImportError:
     timm = None
 
 from mmcv.cnn.bricks.registry import NORM_LAYERS
-from mmcv.runner import BaseModule
+from mmengine.runner import BaseModule
 
 from ..builder import BACKBONES
 

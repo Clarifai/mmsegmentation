@@ -4,7 +4,7 @@ import warnings
 import mmcv
 from mmcv.cnn import ConvModule
 from mmcv.cnn.bricks import Conv2dAdaptivePadding
-from mmcv.runner import BaseModule
+from mmengine.runner import BaseModule
 from torch.nn.modules.batchnorm import _BatchNorm
 
 from ..builder import BACKBONES
